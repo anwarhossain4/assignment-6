@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Book Archive</title>
+</head>
+<style>
+    body {
+        background: url("images/lib.jfif");
+        background-size: cover;
+
+    }
+</style>
+
+<body>
+
+    <header>
+        <h1 class="text-center p-4 text-danger">Welcome To Book Archive</h1>
+        <h2 class="text-center p-4 text-danger">Book Search</h2>
+
+        <div class="container d-flex justify-content-center w-50 pb-3">
+            <!-- search input field  -->
+            <input id="search-field" type="text" class="form-control" placeholder="Search from book archive"
+                aria-label="Recipient's username" aria-describedby="button-addon2">
+            <!-- search button  -->
+            <button id="search-btn" class="btn btn-outline-danger" type="button" id="button-addon2">Search</button>
+        </div>
+        </div>
+    </header>
+
+
+    <!-- b -->
+    <main>
+        <div class="container" id="display">
+            <!-- number count  -->
+            <div id="count-result"></div>
+            <!-- result items  -->
+            <div class="row g-5" id="show-items"></div>
+        </div>
+    </main>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
